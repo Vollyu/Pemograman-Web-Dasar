@@ -1,0 +1,260 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:wght@300;400;700&display=swap");
+
+/* Base */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background: #f5f5f5;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 30px;
+  background: linear-gradient(45deg, #3498db, #2c3e50);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+h2 {
+  color: #34495e;
+  border-bottom: 2px solid #3498db;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+}
+
+.section {
+  background: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Decoration */
+.decoration-none {
+  text-decoration: none;
+}
+
+.decoration-underline {
+  text-decoration: underline;
+  text-decoration-color: #3498db;
+}
+
+.decoration-overline {
+  text-decoration: overline;
+  text-decoration-color: #e74c3c;
+}
+
+.decoration-through {
+  text-decoration: line-through;
+  text-decoration-color: #95a5a6;
+}
+
+.decoration-multiple {
+  text-decoration: underline overline;
+  text-decoration-color: #9b59b6;
+}
+
+/* Transform */
+.transform-none {
+  text-transform: none;
+}
+
+.transform-uppercase {
+  text-transform: uppercase;
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.transform-lowercase {
+  text-transform: lowercase;
+  color: #3498db;
+}
+
+.transform-capitalize {
+  text-transform: capitalize;
+  color: #27ae60;
+  font-weight: 600;
+}
+
+/* Align */
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+  background: #ecf0f1;
+  padding: 10px;
+}
+
+.align-right {
+  text-align: right;
+  background: #fdeaa7;
+  padding: 10px;
+}
+
+.align-justify {
+  text-align: justify;
+  background: #e8f5e8;
+  padding: 15px;
+  border-left: 4px solid #27ae60;
+}
+
+/* Font Family */
+.font-serif {
+  font-family: "Times New Roman", serif;
+}
+
+.font-sans {
+  font-family: Arial, sans-serif;
+}
+
+.font-mono {
+  font-family: "Courier New", monospace;
+  background: #f8f9fa;
+  padding: 5px;
+}
+
+.font-custom {
+  font-family: 'Roboto', sans-serif;
+  color: #e74c3c;
+}
+
+/* Font Size */
+.size-small {
+  font-size: 12px;
+}
+
+.size-normal {
+  font-size: 16px;
+}
+
+.size-large {
+  font-size: 24px;
+}
+
+.size-xlarge {
+  font-size: 32px;
+}
+
+.size-em {
+  font-size: 1.5em;
+}
+
+.size-rem {
+  font-size: 1.2rem;
+}
+
+/* Font Weight */
+.weight-thin {
+  font-weight: 100;
+}
+
+.weight-normal {
+  font-weight: 400;
+}
+
+.weight-bold {
+  font-weight: 700;
+}
+
+.weight-bolder {
+  font-weight: bolder;
+}
+
+.weight-900 {
+  font-weight: 900;
+}
+
+/* Font Style */
+.style-normal {
+  font-style: normal;
+}
+
+.style-italic {
+  font-style: italic;
+}
+
+.style-oblique {
+  font-style: oblique;
+}
+
+/* Line Height */
+.line-small {
+  line-height: 1.2;
+  background: #ffebee;
+  padding: 10px;
+}
+
+.line-normal {
+  line-height: 1.6;
+  background: #e3f2fd;
+  padding: 10px;
+}
+
+.line-large {
+  line-height: 2;
+  background: #f3e5f5;
+  padding: 10px;
+}
+
+/* Letter Spacing */
+.ls-tight {
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.ls-normal {
+  letter-spacing: normal;
+}
+
+.ls-wide {
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #8e44ad;
+}
+
+/* Word Spacing */
+.ws-normal {
+  word-spacing: normal;
+}
+
+.ws-wide {
+  word-spacing: 10px;
+  background: #fff3e0;
+  padding: 10px;
+}
+
+/* Shadow */
+.shadow-simple {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0,.3);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.shadow-colored {
+  text-shadow: 3px 3px 0 #3498db;
+  color: #2c3e50;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.shadow-multiple {
+  text-shadow: 1px 1px 0 #e74c3c, 2px 2px 0 #f39c12, 3px 3px 0 #f1c40f, 4px 4px 0 #27ae60;
+  color: #2c3e50;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.shadow-glow {
+  text-shadow: 0 0 5px #3498db, 0 0 10px #3498db, 0 0 15px #3498db, 0 0 20px #3498db;
+  color: #2c3e50;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
