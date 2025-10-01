@@ -14,3 +14,8 @@ Proyek ini adalah **tugas pemrograman web** yang membuat tampilan sederhana miri
 <body> ... </body>
 </html>
 
+<!DOCTYPE html> → mendefinisikan dokumen HTML5.
+
+<head> → berisi judul, meta, dan link CSS.
+
+<body> → berisi konten utama halaman.
