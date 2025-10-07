@@ -1,0 +1,19 @@
+/* Selektor ID */
+#atas {
+    background-color: red; 
+    color: white; 
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Selektor Tag */
+h1 {
+    color: black;
+}
+
+/* Selektor Class */
+.isi {
+    font-family: Arial;
+    font-size: 30px;
+    color: blue;
+}

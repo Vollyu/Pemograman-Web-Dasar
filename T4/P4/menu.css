@@ -1,0 +1,54 @@
+#wrapper {
+    width: 600px; 
+    margin: auto;
+}
+
+#menu ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none; 
+}
+
+#menu ul li {
+    display: block; 
+    position: relative;
+    float: left;
+}
+
+#menu li ul {
+    display: none; 
+}
+
+#menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff; 
+    padding: 5px 15px 5px 15px;
+    background: #000; 
+     /* margin-left: 1px; */
+    white-space: nowrap;
+}
+
+#menu ul li a:hover {
+    background: #666; 
+}
+
+#menu li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+#menu li:hover li {
+    float: none;
+    font-size: 11px;
+}
+
+#menu li:hover li a {
+    background: #3b3b3b;
+}
+
+#menu li:hover li a:hover {
+    background: #666; 
+}
