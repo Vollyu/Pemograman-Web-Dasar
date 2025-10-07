@@ -1,0 +1,116 @@
+/* Modifikasi agar background halaman seperti di halaman 34 */
+body {
+    /* Warna latar belakang cyan/teal muda */
+    background-color: #8ceabb; 
+}
+
+/* Style untuk Header Halaman */
+#header {
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+    font-size: 28px;
+    font-family: Arial, sans-serif;
+}
+
+#wrapper {
+    width: 600px; /* Lebar wrapper disesuaikan */
+    margin: auto;
+}
+
+/* Style awal menu dan untuk menghilangkan list-style */
+#menu ul {
+    font-family: Arial, Verdana;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Menghilangkan bullet point */
+}
+
+/* Membuat menu menjadi horizontal dengan display: block/float: left */
+#menu ul li {
+    display: block;
+    position: relative;
+    float: left;
+}
+
+/* Menyembunyikan submenu (ul di dalam li) secara default */
+#menu ul li ul {
+    display: none; 
+    position: absolute; /* Penting untuk dropdown */
+}
+
+/* Style awal sebelum cursor mouse diarahkan (menu utama) */
+#menu ul li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff; /* Putih */
+    padding: 5px 15px 5px 15px;
+    background: #444444; /* Abu-abu tua */
+    border-right: 1px solid #666666; /* Pemisah antar menu */
+    white-space: nowrap;
+}
+
+/* Style setelah cursor diarahkan (hover) pada menu utama */
+#menu ul li a:hover {
+    background: #666666; /* Abu-abu lebih terang */
+}
+
+/* Untuk menampilkan submenu jika pada sebuah menu utama ada tag ul */
+#menu li:hover ul {
+    display: block;
+    position: absolute;
+    z-index: 1000; /* Memastikan submenu di atas konten lain */
+}
+
+/* Menyesuaikan submenu: menghilangkan float dan mengubah font */
+#menu li:hover ul li {
+    float: none;
+    font-size: 11px;
+    border-bottom: 1px solid #555;
+    border-right: none;
+}
+
+/* Style awal submenu sebelum cursor diarahkan */
+#menu li:hover ul li a {
+    background: #3b3b3b;
+    padding: 5px 10px; /* Padding lebih kecil untuk submenu */
+    font-weight: normal;
+    width: 150px; /* Memberi lebar tetap pada submenu */
+}
+
+/* Style setelah cursor diarahkan (hover) pada submenu */
+#menu li:hover ul li a:hover {
+    background: #666666; 
+}
+
+.content {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    float: left; /* Membuat foto berada di kiri */
+    margin-right: 20px;
+    border: 3px solid #666666;
+}
+
+.biodata-list {
+    list-style: none;
+    padding: 0;
+    line-height: 1.8;
+}
+
+.biodata-list strong {
+    display: inline-block;
+    width: 120px;
+}
