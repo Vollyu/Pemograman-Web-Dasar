@@ -1,0 +1,29 @@
+<html>
+<head>
+    <title>Struktur Perulangan Do While</title>
+</head>
+<body>
+    <script type="text/javascript">
+        // Contoh 1: Perulangan Do-While
+        var i = 1
+        do {
+            document.write("Ini juga pengulangan yang ke-"+i+"<br/>")
+            i++;
+        }
+        while (i <= 6)
+        
+        // Contoh 2: Perulangan While dan Do-While
+        var j = 5
+        while (j <= 3) { // Kondisi ini (5 <= 3) TIDAK terpenuhi, sehingga blok while tidak akan dieksekusi
+            // Kode di sini tidak akan pernah dijalankan
+        }
+        
+        do {
+            document.write("Perulangan ini kondisinya tidak terpenuhi<br/>")
+            j++;
+        }
+        while(j <= 3) // Kondisi ini (6 <= 3) TIDAK terpenuhi, tetapi blok do akan dieksekusi minimal SATU kali
+        
+    </script>
+</body>
+</html>
