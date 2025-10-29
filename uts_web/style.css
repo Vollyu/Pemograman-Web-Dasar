@@ -1,0 +1,6 @@
+ /* style css native agar terlihat rapi dan elegant*/
+body { background:#f6f7fb; }
+.form-section { border-radius:12px; }
+.card { border-radius:12px; }
+.table thead th { vertical-align: middle; }
+.highlight p { margin:0; }
